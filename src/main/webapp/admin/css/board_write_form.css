@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.write_head {
+	padding: 16px;
+}
+.write_head_title {
+	margin-bottom: 16px;
+}
+.write_title {
+	width: 1280px;
+	height: 54px;
+	border: 1px solid #dddddd;
+	font-size: 28px;
+	padding: 6px;
+}
+.write_content {
+	width: 1280px;
+	height: 108px;
+	resize: none;
+	font-size: 28px;
+	padding: 6px;
+	border: 1px solid #dddddd;
+}
+.write_body_wrapper {
+	padding-left: 16px;
+}
+.write_body {
+	width: 1280px;
+	height: 500px;
+	padding: 6px;
+	border: 1px solid #dddddd;
+}
+.write_body_file {
+	height: 80px;
+	border-bottom: 1px solid #dddddd;
+}
