@@ -125,27 +125,29 @@ header>h1 {
 }
 
 .end {
-	border: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
 	background: white;
 	width: 100%;
-	padding: 20px;
+	padding: 15px;
 	text-align: center;
-	margin-top: 7px;
 }
 
 .end a {
-	font-size: 14px;
-	border: 2px solid black;
-	background: #ffffff;
-	padding: 3px;
+	color : #212529;
+	font-size: 15px;
+	/* border: 2px solid black; */
+	background: #dee2e6;
+	padding: 7px;
 	border-radius: 5px;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
+	text-decoration: none;
 }
 
 .end a:hover {
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
+	color: white;
 }
 
 .div2 {
@@ -213,7 +215,21 @@ header>h1 {
 	-moz-appearance: none;
 	appearance: none;
 }
-
+.note-editable {
+	background-color: white;
+}
 .title_wrap {
 	margin-bottom: 7px;
+}
+
+.dropdown-toggle::after{
+	margin-left: 0px !important;
+}
+.note-color-all button.active +.note-dropdown-menu>div:nth-child(2) {
+
+	display:none !important;
+}
+.note-color-all button.active +.note-dropdown-menu {
+
+	min-width:0px !important;
 }

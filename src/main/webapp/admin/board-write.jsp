@@ -14,14 +14,18 @@
 <script type="text/javascript" src="js/fileupload.js"></script>
 <script type="text/javascript" src="js/index_navbar_onclick.js"></script>
 <!-- <-게시판 css -->
-<link rel="stylesheet" href="./css/board.css" />
 
+<script src="js/summernote/summernote-lite.js"></script>
+<script src="js/summernote/lang/summernote-ko-KR.js"></script>
+
+<link rel="stylesheet" href="css/summernote/summernote-lite.css">
 <link
 	href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
 	rel="stylesheet" />
 <link href="css/styles.css" rel="stylesheet" />
 <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
 	crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./css/board.css" />
 </head>
 <body class="sb-nav-fixed">
 	<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -330,8 +334,15 @@
 										onfocus="value=''" value="게시글 제목을 입력하세요" style="width: 500px" />
 									</li>
 								</ul>
+
 								<div class="writeWrap">
-									<textarea class="writeArea" value=""></textarea>
+<!-- 									<textarea id="summernote" class="writeArea" value=""></textarea> -->
+
+<form method="post">
+  <textarea id="summernote" name="editordata" class="writeArea" ></textarea>
+</form>
+
+
 								</div>
 								<div class="configWrap">
 									<ul>
@@ -359,7 +370,7 @@
 									</ul>
 								</div>
 								<div class="end">
-									<a href="#">저장하기</a>&nbsp;&nbsp;<a href="#">취소하기</a>
+									<a href="#">저장</a>&nbsp;&nbsp;<a href="#">취소</a>
 								</div>
 
 							</div>
