@@ -21,7 +21,7 @@
 	crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/index_navbar_onclick.js"></script>
 
-<link href="css/banner_join2.css" rel="stylesheet" />
+<link href="css/form_banner.css" rel="stylesheet" />
 
 </head>
 <body class="sb-nav-fixed">

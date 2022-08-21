@@ -305,7 +305,7 @@
 											width=150px>
 									</div> -->
 									<div class="div3">
-										<h1>배너 등록</h1>
+										<h1>관리자 게시판</h1>
 									</div>
 								</div>
 							</header>
@@ -338,9 +338,9 @@
 								<div class="writeWrap">
 <!-- 									<textarea id="summernote" class="writeArea" value=""></textarea> -->
 
-<form method="post">
+<!-- <form method="post"> -->
   <textarea id="summernote" name="editordata" class="writeArea" ></textarea>
-</form>
+<!-- </form> -->
 
 
 								</div>
