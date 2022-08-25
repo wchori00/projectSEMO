@@ -9790,7 +9790,7 @@ external_root_jQuery_commonjs2_jquery_commonjs_jquery_amd_jquery_default.a.summe
 			    ['para', ['ul', 'ol', 'paragraph']],
 			    ['height', ['height']],
 			    ['insert',['picture','link','video']],
-			    ['view', ['fullscreen', 'help']]
+//			    ['view', ['fullscreen', 'help']]
 			  ],
 //			fontNames: ['Arial', 'Arial Black', 'Comic Sans MS', 'Courier New','맑은 고딕','궁서','굴림체','굴림','돋움체','바탕체'],
 //			fontSizes: ['8','9','10','11','12','14','16','18','20','22','24','28','30','36','50','72'] ,
@@ -10291,7 +10291,7 @@ var toolbar = renderer["a" /* default */].create('<div class="note-toolbar" role
 var editingArea = renderer["a" /* default */].create('<div class="note-editing-area"/>');
 var codable = renderer["a" /* default */].create('<textarea class="note-codable" aria-multiline="true"/>');
 var editable = renderer["a" /* default */].create('<div class="note-editable" contentEditable="true" role="textbox" aria-multiline="true"/>');
-var statusbar = renderer["a" /* default */].create(['<output class="note-status-output" role="status" aria-live="polite"></output>', '<div class="note-statusbar" role="status">', '<div class="note-resizebar" aria-label="resize">', '<div class="note-icon-bar"></div>', '<div class="note-icon-bar"></div>', '<div class="note-icon-bar"></div>', '</div>', '</div>'].join(''));
+var statusbar = renderer["a" /* default */].create(['<output class="note-status-output" role="status" aria-live="polite"></output>', '<div class="note-statusbar" role="status">', /*'<div class="note-resizebar" aria-label="resize">',*/ '<div class="note-icon-bar"></div>', '<div class="note-icon-bar"></div>', '<div class="note-icon-bar"></div>', '</div>', '</div>'].join(''));
 var airEditor = renderer["a" /* default */].create('<div class="note-editor note-airframe"/>');
 var airEditable = renderer["a" /* default */].create(['<div class="note-editable" contentEditable="true" role="textbox" aria-multiline="true"></div>', '<output class="note-status-output" role="status" aria-live="polite"></output>'].join(''));
 var buttonGroup = renderer["a" /* default */].create('<div class="note-btn-group">');

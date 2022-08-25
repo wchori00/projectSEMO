@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.wrapper {
+	width: 1040px;
+	margin: 130px 40px 100px 40px;
+}
+.orderlist_table {
+	width: 960px;
+}
+.orderlist_table_head {
+	width: 960px;
+	height: 50px;
+	border-top: 4px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.orderlist_table_body {
+	width: 960px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #ddd;
+}
+
+
+
+

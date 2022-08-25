@@ -331,7 +331,7 @@
 												name="write" id="write_G"> <label for="write_G">일반</label>
 										</div></li>
 									<li><span class="title">제목</span> <input type="text"
-										onfocus="value=''" value="게시글 제목을 입력하세요" style="width: 500px" />
+										placeholder="게시글 제목을 입력하세요" style="width: 500px" />
 									</li>
 								</ul>
 
