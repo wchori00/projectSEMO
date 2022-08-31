@@ -5,10 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="css/styles.css" rel="stylesheet" />
 <link href="css/board_Q&A_reply.css" rel="stylesheet" />
-<script src="js/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="js/fileupload.js"></script>
 </head>
 
 <body>
@@ -54,9 +51,12 @@
 </div>
 
 <div class="popup_btn">
-<div class="end">
-	<a href="#">저장</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">취소</a>
-</div>
+
+	<div class="end">
+		<div class="end_btn" onclick="location.href='#'">저장</div>
+		<div class="end_btn" onclick="location.href='#'">취소</div>
+	</div>
+	
 </div>
 
 </div>

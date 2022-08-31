@@ -15,9 +15,7 @@
 
 <div class="popup_wrapper">
 <div class="popup_head"><h1>매장 등록</h1>
-<div class="popup_head_index">
-새로운 매장을 등록합니다
-</div>
+
 </div>
 <div class="popup_title">
 <div class="popup_text">매장명</div>&nbsp;<div class="popup_inputbox"><input type="text" placeholder=""></div>
@@ -28,11 +26,7 @@
 <input class="office_type" type="radio" name="office_type_radio" id="office_type1" checked="checked"><label for="office_type1">직영</label></div>
 <div class="popup_radio">
 <input class="office_type" type="radio" name="office_type_radio" id="office_type2"><label for="office_type2">외주</label>
-<!-- <select class="manager_level"><option value="0" selected="">직영</option> -->
-<!-- 	<option value="1">외주</option> -->
-<!-- </select> -->
 </div>
-</div><!-- /popup_content -->
 <div class="popup_code">
 <div class="popup_text">매장코드</div>&nbsp;<div class="popup_inputbox"><input type="text" placeholder=""></div>
 </div>

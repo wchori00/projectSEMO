@@ -14,7 +14,7 @@
 	href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css"
 	rel="stylesheet" />
 <link href="css/styles.css" rel="stylesheet" />
-<link href="css/form_store.css" rel="stylesheet" />
+<link href="css/form_QnA.css" rel="stylesheet" />
 <script src="js/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="js/fileupload.js"></script>
 <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
@@ -314,85 +314,85 @@
 			<main>
 
 				<div class="container-fluid px-4">
-						<h1 class="mt-4">매장관리</h1>
+						<h1 class="mt-4">Q&A관리</h1>
 					<ol class="breadcrumb mb-4">
 						<li class="breadcrumb-item"><a href="index.jsp">Dashboard</a></li>
-						<li class="breadcrumb-item active">매장관리</li>
+						<li class="breadcrumb-item active">Q&A관리</li>
 					</ol>
 					<div class="card mb-4">
 						<div class="card-body">
-							매장관리 페이지 입니다. <a target="_blank"
+							Q&A관리 페이지 입니다. <a target="_blank"
 								href="https://datatables.net/">아무링크</a> .
 						</div>
 					</div>
-					
+
 
 
 <div class="wrapper">
 
-<div class="write_wrapper">
-<div class="write_form">
+<!---------- 본문내용 시작 ---------->
 
-<div class="write_content write_title">
-<h1>매장 등록</h1>
-</div>
-<div class="write_form_bg">
-<div class="write_content mg_top">
-<div class="write_title_default">매장명</div>
-<div class="write_content_default"><input type="text" class="write_input"></div>
-</div>
-<div class="write_content">
-<div class="write_title_default">구분</div>
-<div class="write_content_default radio_row">
 
-<div class="popup_radio">
-<input class="office_type" type="radio" name="office_type_radio" id="office_type1" checked="checked"><label for="office_type1">직영</label></div>
-<div class="popup_radio">
-<input class="office_type" type="radio" name="office_type_radio" id="office_type2"><label for="office_type2">외주</label>
-</div>
+<div class="popup_wrapper">
 
+<div class="popup_title"><h1>1:1문의</h1>
+</div>
+<div class="customer_question_wrapper">
+<div class="customer_question">
+<div class="customer_question_title">제목</div>
+<div class="customer_question_title_body">안녕하세요</div>
+</div>
+<div class="customer_question">
+<div class="customer_question_title_row">작성자</div>
+<div class="customer_question_name_body">안녕하</div>
+<!-- </div> -->
+<!-- <div class="customer_question"> -->
+<div class="customer_question_title_row">작성일</div>
+<div class="customer_question_date_body">2022-08-10</div>
+</div>
+<div class="customer_question">
+<div class="customer_question_title">내용</div>
+<div class="customer_question_content_body">
+안녕하세요세탁을맡겼는데안깨끗해요<br>안녕하세요세탁을맡겼는데안깨끗해요<br>안녕하세요세탁을맡겼는데안깨끗해요<br>안녕하세요세탁을맡겼는데안깨끗해요<br>안녕하세요세탁을맡겼는데안깨끗해요<br>
 </div>
 </div>
-<div class="write_content mg_btm">
-<div class="write_title_default">매장코드</div>
-<div class="write_content_default"><input type="text" class="write_input"></div>
+<div class="customer_question">
+<div class="customer_question_title">첨부파일</div>
+<div class="customer_question_file_body"><img src="image/oh_whale.jpg"></div>
 </div>
-<div class="write_content mg_btm">
-<div class="write_title_default">주소1</div>
-<div class="write_content_default"><input type="text" class="write_input"></div>
 </div>
-<div class="write_content mg_btm">
-<div class="write_title_default">주소2</div>
-<div class="write_content_default"><input type="text" class="write_input"></div>
+<div class="popup_hr"></div>
+<div class="customer_reply_wrapper">
+<div class="customer_reply_head">답변
 </div>
-<div class="write_content mg_btm">
-<div class="write_title_default">주소3</div>
-<div class="write_content_default"><input type="text" class="write_input"></div>
+<div class="customer_reply">
+<div class="customer_reply_title">제목</div><div class="customer_reply_title_body"><input type="text"></div>
 </div>
-<div class="write_content mg_btm">
-<div class="write_title_default">전화번호</div>
-<div class="write_content_default"><input type="text" class="write_input"></div>
+<div class="customer_reply">
+<div class="customer_reply_title">내용</div><div class="customer_reply_content_body"><textarea></textarea></div>
 </div>
-
 </div>
 
-<div class="write_btn">
+<div class="popup_btn">
 
 	<div class="end">
 		<div class="end_btn" onclick="location.href='#'">저장</div>
 		<div class="end_btn" onclick="location.href='#'">취소</div>
 	</div>
+	
+</div>
 
-
-</div>
-</div>
-</div>
 </div>
 
 
-
+<!---------- 본문내용 끝 ---------->
 
 </div>
+
+
+
+
+
 			</main>
 
 		</div>

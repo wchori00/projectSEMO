@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="css/styles.css" rel="stylesheet" />
 <link href="css/voucher_coupon.css" rel="stylesheet" />
 <script src="js/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="js/promo_coupon.js"></script>
