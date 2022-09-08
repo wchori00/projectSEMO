@@ -166,6 +166,9 @@
 	font-weight: bold;
 	width: 580px;
 }
+.order_box_btn {
+	height: 60px;
+}
 .order_box_title {
 	font-size: 15px;
 	width: 100px;
@@ -245,5 +248,5 @@
 
 /*-------- 주문취소 버튼 --------*/
 .action-button {
-	padding: 6px 24px;
+	padding: 4px 24px;
 }

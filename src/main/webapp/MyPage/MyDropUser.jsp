@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <title>Document</title>
 
-  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="/js/jquery-3.6.0.min.js"></script>
   <script language="javascript">
    
     function agreeCheck(frm)
@@ -74,7 +74,7 @@
 <div class="write_btn">
 
 	<div class="end">
-		<div class="action-button shadow animate blue" onclick="location.href='#'">주  문  서</div>
+		<div class="action-button shadow animate blue" onclick="location.href='#'">취소</div>
 		<div class="action-button shadow animate red" onclick="location.href='#'">탈퇴</div>
 	</div>
 
@@ -89,7 +89,7 @@
 </div>
 <div class="margin_side"></div>
 </div>
-`
+
 <%@ include file="/common/footer.jsp"%>
 
 </body>

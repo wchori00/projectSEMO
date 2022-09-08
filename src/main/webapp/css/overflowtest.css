@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.table_wrapper {
+	width: 300px;
+}
+.table {
+	width: 300px;
+	overflow-x: auto; 
+}

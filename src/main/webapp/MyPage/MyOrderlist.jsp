@@ -6,10 +6,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
-  <link rel="stylesheet" href="../common/css/button.css">
-  <link rel="stylesheet" href="../common/css/footer.css">
-  <link rel="stylesheet" href="../common/css/header.css">
-  <link rel="stylesheet" href="../css/MyOrderlist.css">
+  <link rel="stylesheet" href="/common/css/button.css">
+  <link rel="stylesheet" href="/css/MyOrderlist.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -21,10 +19,10 @@
   </script>
 
   <script language="javascript">
-  function showPopupReview() { window.open("MyReview.jsp", "리뷰작성", "width=490, height=600, left=370, top=150, resizeable=none"); }
+  function showPopupReview() { window.open("MyReview_popup.jsp", "리뷰작성", "width=490, height=620, left=370, top=150, resizeable=none"); }
   </script>
   
-  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="/js/jquery-3.6.0.min.js"></script>
   <script language="javascript">
    
     function agreeCheck(frm)

@@ -64,8 +64,8 @@
 }
 #inner_chart{
 	width: 500px;
-	overflow-x: hidden;
-	overflow-y:auto;
+	overflow-y: hidden;
+	overflow-x: auto;
 	height:630px;
 	text-align: left;
 	background-color: #fff;
